@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100wh;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+.container{
+    display: flex;
+    
+    align-content: center;
+    justify-content: space-between;
+}
+nav div{
+    padding: .5rem;
+    
+}
+.right{
+   
+    display: flex;
+
+    align-items: center;
+    /* background-color: yellow; */
+    justify-content: space-between !important;
+}
+#signup-link{
+    
+    margin: 1rem 2rem;
+}
+.signup-form{
+    margin: 1.5rem;
+}
+form input{
+    width: 90%;
+    border: none;
+    
+}
+#signup-btn{
+    
+    width: 15% !important;
+    
+}
+form input:hover{
+    cursor: pointer;
+}
+form input:focus{
+    outline:none;
+    
+}
